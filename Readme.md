@@ -6,11 +6,11 @@ This project is a complete **End-to-End Machine Learning pipeline** designed to 
 
 It covers the full ML lifecycle:
 
-* Data Ingestion
-* Data Transformation
-* Model Training
-* Model Evaluation
-* Deployment using Flask
+- Data Ingestion
+- Data Transformation
+- Model Training
+- Model Evaluation
+- Deployment using Flask
 
 The system is built with a **modular and scalable architecture**, making it suitable for real-world ML applications.
 
@@ -18,13 +18,13 @@ The system is built with a **modular and scalable architecture**, making it suit
 
 ## 🚀 Features
 
-* 🔹 End-to-End ML Pipeline
-* 🔹 Modular Code Structure (Production-Level)
-* 🔹 Data Preprocessing & Feature Engineering
-* 🔹 Model Training using CatBoost
-* 🔹 Model Evaluation with Metrics
-* 🔹 Flask-based Web Application
-* 🔹 Real-time Prediction System
+- 🔹 End-to-End ML Pipeline
+- 🔹 Modular Code Structure (Production-Level)
+- 🔹 Data Preprocessing & Feature Engineering
+- 🔹 Model Training using CatBoost
+- 🔹 Model Evaluation with Metrics
+- 🔹 Flask-based Web Application
+- 🔹 Real-time Prediction System
 
 ---
 
@@ -32,25 +32,25 @@ The system is built with a **modular and scalable architecture**, making it suit
 
 The objective of this project is to predict student performance (exam scores) based on input features such as:
 
-* Gender
-* Race/Ethnicity
-* Parental Level of Education
-* Lunch Type
-* Test Preparation Course
+- Gender
+- Race/Ethnicity
+- Parental Level of Education
+- Lunch Type
+- Test Preparation Course
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Programming Language:** Python 🐍
-* **Libraries:**
+- **Programming Language:** Python 🐍
+- **Libraries:**
+  - Pandas
+  - NumPy
+  - Scikit-learn
+  - CatBoost
 
-  * Pandas
-  * NumPy
-  * Scikit-learn
-  * CatBoost
-* **Framework:** Flask
-* **Tools:** VS Code, Jupyter Notebook
+- **Framework:** Flask
+- **Tools:** VS Code, Jupyter Notebook
 
 ---
 
@@ -137,61 +137,64 @@ http://127.0.0.1:5000/
 
 ### 1. Data Ingestion
 
-* Reads dataset from source
-* Splits into training and testing data
+- Reads dataset from source
+- Splits into training and testing data
 
 ### 2. Data Transformation
 
-* Handles missing values
-* Encodes categorical variables
-* Scales numerical features
+- Handles missing values
+- Encodes categorical variables
+- Scales numerical features
 
 ### 3. Model Training
 
-* Uses CatBoost Regressor
-* Trains on processed dataset
-* Saves trained model
+- Uses CatBoost Regressor
+- Trains on processed dataset
+- Saves trained model
 
 ### 4. Prediction Pipeline
 
-* Accepts user input
-* Applies preprocessing
-* Generates predictions
+- Accepts user input
+- Applies preprocessing
+- Generates predictions
 
 ---
 
 ## 📊 Model Evaluation
 
-* **Algorithm:** CatBoost Regressor
-* **Metrics Used:**
-
-  * R² Score
-  * Mean Absolute Error (MAE)
-  * Mean Squared Error (MSE)
+- **Algorithm:** CatBoost Regressor
+- **Metrics Used:**
+  - R² Score
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
 
 ---
 
 ## 🌐 Web Application
 
-* Built using Flask
-* User-friendly interface
-* Takes input features from user
-* Displays predicted student score
+- Built using Flask
+- User-friendly interface
+- Takes input features from user
+- Displays predicted student score
 
 ---
 
-## 📸 Output
+## 📸 Application Preview
 
-*Add screenshots of your UI or prediction results here*
+<p align="center">
+  <img src="assets/index.png" width="30%" />
+  <img src="assets/home.png" width="30%" />
+  <img src="assets/result.png" width="30%" />
+</p>
 
 ---
 
 ## 📈 Future Improvements
 
-* Add multiple model comparisons
-* Deploy using AWS / Docker
-* Improve UI/UX design
-* Add real-time analytics dashboard
+- Add multiple model comparisons
+- Deploy using AWS / Docker
+- Improve UI/UX design
+- Add real-time analytics dashboard
 
 ---
 
